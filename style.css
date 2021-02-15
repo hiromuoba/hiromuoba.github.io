@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*共通部分
+------------------------*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+    color: black;
+
+}
+a{
+    text-decoration: black;
+}
+img{
+    max-width: 50%;
+}
+/*HEADER
+-------------------------*/
+.logo{
+    width: 150px;
+    margin-top: 14px;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: black;
+}
+.main-nav a:hover {
+    color: cadetblue;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/* HOME
+------------------------------*/
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+/* 見出し*/
+.my-name{
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/* ボタン*/
+.button{
+    font-size: 1.375rem;
+    background: cyan;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+.button:hover{
+    background: violet;
+}
+/* 大きな背景画像 */
+.big-bag{
+    background-size: contain ;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url(../images/mee.jpg);
+    min-height: 100vh;
+}
+#home .page-title{
+    text-transform: none;
+}
+/* フッター
+------------------------ */
+footer{
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/* 自己紹介
+------------------------ */
+article{
+    width: 50%;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* 自己紹介文
+----------------------- */
+.profile-title{
+    font-size: 100px;
+}
+.profile-main{
+    font-size: 30px;
+    color: black;
+
+}
+.my-passion{
+    font-size: 100px;
+}
+.passion-main{
+    font-size: 30px;
+    color: black;
+}
+
+/* ポートフォリオ
+--------------------------- */
+.portfolio{
+    background-color: cornsilk;
+}
+.portfolio-title{
+    font-size: 100px;
+    text-align: center;
+}
